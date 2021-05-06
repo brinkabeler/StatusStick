@@ -9,9 +9,16 @@ A cobbled together script for the M5StickC ESP32 gadget to make homeoffice life 
 - When a TVOC Sensor is attatched and the eCO2 value goes over 900ppm, the stick displays a message asking to open a window and flashes the LED until the value drops under 900
 - OTA update
 
+## Instructions
+- Put your wifi credentials in (remember this ESP32 only does 2,4GHz wifi)
+- after switching on the stick, find out how to reach the website (probably check out what IP your AP/router assigned to it)
+- button A toggles free/busy
+- button B toggles notification LED
+
 
 ## Opportunities for improvement:
 - make message display pretty (or display usage in general)
+- make the website better
 - multi-device support via a server or meshing?
 - smooth out the eCO2 reading triggering the air quality notification
 - battery life can probably be extended
